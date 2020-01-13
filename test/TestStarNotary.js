@@ -81,6 +81,12 @@ it('can get a star with id and return its info', async() => {
     assert(star, 'Panama Star');
 });
 
+it('contract instance returns star name and star symbol', async() => {
+    const instance = await StarNotary.deployed();
+    assert.equal(await instance.name.call(), 'Balboa Token');
+    assert.equal(await instance.symbol.call(), 'BLT');
+});
+
 it('lets 2 users exchange stars', async() => {
     const instance = await StarNotary.deployed();
     const user1 = accounts[0];
