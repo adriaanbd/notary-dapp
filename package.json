@@ -1,0 +1,26 @@
+{
+  "name": "notary-dapp",
+  "version": "1.0.0",
+  "description": "## Dependencies * Truffle v5.1.8 * OpenZeppelin-Solidity v2.4.0",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriaanbd/notary-dapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adriaanbd/notary-dapp/issues"
+  },
+  "homepage": "https://github.com/adriaanbd/notary-dapp#readme",
+  "dependencies": {
+    "openzeppelin-solidity": "^2.4.0",
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
+}
