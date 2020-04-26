@@ -22,7 +22,7 @@
 
 To get set up, please run the following commands:
 
-* Install truffle: `$ npm i *g truffle`
+* Install truffle: `$ npm i -g truffle`
 * Install dependencies: `$ npm install`
 * Compile contracts: `$ truffle compile`
 
