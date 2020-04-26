@@ -21,6 +21,7 @@
   "homepage": "https://github.com/adriaanbd/notary-dapp#readme",
   "dependencies": {
     "openzeppelin-solidity": "^2.4.0",
+    "truffle": "^5.1.23",
     "truffle-hdwallet-provider": "^1.0.17"
   }
 }
